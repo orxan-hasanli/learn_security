@@ -20,6 +20,10 @@
 
   <properties>
     <java.version>17</java.version>
+    <springdoc.version>1.6.12</springdoc.version>
+    <org.projectlombok.version>1.18.24</org.projectlombok.version>
+    <org.mapstruct.version>1.5.3.Final</org.mapstruct.version>
+    <guava.version>31.1-jre</guava.version>
   </properties>
 
   <dependencies>
@@ -62,6 +66,22 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>${guava.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>info.md7</groupId>
+      <artifactId>cbar-currency</artifactId>
+      <version>1.2.1</version>
     </dependency>
 
     <dependency>
